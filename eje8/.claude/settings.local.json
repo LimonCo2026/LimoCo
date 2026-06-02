@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(npm install *)",
+      "Bash(npm list *)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:3001/ -o /tmp/home.html)",
+      "Read(//tmp/**)",
+      "Bash(curl -s http://localhost:3001__TRACKED_VAR__ -o /tmp/page.html)",
+      "Bash(curl *)",
+      "Skill(playwright-cli)",
+      "Bash(npx --yes playwright-cli@latest --version)",
+      "Bash(npx playwright *)",
+      "Bash(node shoot.mjs)",
+      "Bash(taskkill /F /PID 21984)",
+      "Bash(taskkill /F /PID 19552)"
+    ]
+  }
+}
